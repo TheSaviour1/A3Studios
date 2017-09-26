@@ -1,0 +1,86 @@
+body{
+	background-image:url("uPlay_PC_Wallpaper1_1920x1080.jpg");
+	background-color:white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+nav{
+	padding:10px;
+	min-width:500px;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	width:150px;
+	height:50px;
+	box-shadow:10px 10px grey;
+	background-color:white;
+	border-radius:24px;
+
+}
+nav ul li a{
+	padding:10px;
+	color:blue;
+	font-size:18px;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+}
+#title{
+	text-align:center;
+	font-size:40px;
+	font-family:Calibri;
+	font-weight:bold;
+	color:white;
+	background-color:blue;
+	text-shadow:5px 2px 4px grey;
+}
+h1{
+	text-align: center;
+	font-size: 32px;
+}
+p{
+	padding-left: : 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.intro{
+	margin-top: 20px;
+	color:white;
+	font-size:100px;
+	text-shadow:5px 2px 4px grey;
+}
+.aboutus span{
+	padding-left:40%;
+	font-size:50px;
+	font-family:Calibri;
+	font-weight:bold;
+	text-shadow:5px 2px 4px grey;
+}
+.works span{
+	padding-left:40%;
+	font-size:50px;
+	font-family:Calibri;
+	font-weight:bold;
+	text-shadow:5px 2px 4px grey;
+}
+.works img{
+	padding-left: 25%;
+	padding-top: 20px;
+}
+.contact span{
+	padding-left:40%;
+	font-size:50px;
+	font-family:Calibri;
+	font-weight:bold;
+	text-shadow:5px 2px 4px grey;
+}
+.contact form{
+	padding-left:20%;
+	font-size:30px;
+	font-family:Calibri;
+}

@@ -9,28 +9,6 @@ body{
 *{
 	box-sizing: border-box;
 }
-nav{
-	padding:10px;
-	width:100%;
-}
-nav ul li{
-	display:inline-block;
-	list-style-type:none;
-	width:150px;
-	height:50px;
-	box-shadow:10px 10px grey;
-	background-color:white;
-	border-radius:24px;
-
-}
-nav ul li a{
-	padding:10px;
-	color:blue;
-	font-size:18px;
-	text-decoration:none;
-	display:block;
-	text-align:center;
-}
 #title{
 	font-family: 'Indie Flower', cursive;
 	text-align:center;
@@ -40,6 +18,35 @@ nav ul li a{
 	background-color:blue;
 	text-shadow:5px 2px 4px grey;
 }
+nav{
+	padding:10px;
+	width:100%;
+}
+nav ul li a{
+	padding-bottom:10px;
+	padding-top: 12px;
+	color:blue;
+	font-size:18px;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+}
+.navbutton{
+	display:inline-block;
+	list-style-type:none;
+	box-shadow:10px 10px grey;
+	background-color:white;
+	border-radius:24px;
+	width:150px;
+	height:50px;
+	font:22px bold;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.navbutton:hover{
+	background-color: grey;
+}
 h1{
 	text-align: center;
 	font-size: 32px;
@@ -47,7 +54,7 @@ h1{
 }
 p{
 	margin: : 10%;
-	width: 90%;
+	width: 100%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
@@ -83,6 +90,10 @@ p{
 	font-weight:bold;
 	text-shadow:5px 2px 4px grey;
 }
+.works ul li{
+	margin-left: 43%;
+}
+
 .works table{
 	height: 150px;
 	width: 300px;
@@ -106,7 +117,7 @@ p{
 	text-shadow:5px 2px 4px grey;
 }
 .contact form{
-	padding-left:20%;
+	padding-left:38%;
 	font-size:30px;
 }
 label{ font:22px bold;
